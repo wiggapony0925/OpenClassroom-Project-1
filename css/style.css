@@ -187,12 +187,12 @@ p {
 	border-width: 3px;
 }
 .FoundingMembers {
-	background: linear-gradient(#a84269, #E44444);
+	background: linear-gradient(0.25turn, #a84269, #E44444);
 	padding: 200px;
 }
 
 h2 {
-	color: #EDEDED;
+	color: #ffffff;
 }
 
 .FoundingMembersSection .button {
