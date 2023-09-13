@@ -187,11 +187,21 @@ p {
 	border-width: 3px;
 }
 .FoundingMembers {
-	background-color: #b85b7d;
-	padding: 20px;
+	background: linear-gradient(#a84269, #E44444);
+	padding: 200px;
+}
+
+h2 {
+	color: #EDEDED;
 }
 
 .FoundingMembersSection .button {
-	background-color: var(--dark-grey-color);
-	color: white; 
+	background-color:rgb(28, 26, 23);
+	color: rgb(177, 19, 19); 
+}
+
+
+.colorSection {
+	background-color: antiquewhite;
+	padding: 200px;
 }
