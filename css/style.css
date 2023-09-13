@@ -186,3 +186,12 @@ p {
 	font-weight: 800;
 	border-width: 3px;
 }
+.FoundingMembers {
+	background-color: #b85b7d;
+	padding: 20px;
+}
+
+.FoundingMembersSection .button {
+	background-color: var(--dark-grey-color);
+	color: white; 
+}
