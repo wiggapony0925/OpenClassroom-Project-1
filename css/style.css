@@ -190,8 +190,9 @@ p {
 /*FOUNDING MEMBERS SECTION*/
 }
 .FoundingMembers {
-	background: linear-gradient(0.25turn, #a84269, #E44444);
-	padding: 200px;
+	background: linear-gradient(0.25turn, #E44444, #b63d71);
+	padding: 100px;
+	margin: 0;
 }
 
 .FoundingMembers h2 {
@@ -210,10 +211,11 @@ p {
 }
 
 .member {
-	width: 30%;
-	text-align: center;
-	margin-bottom: 20px;
+	width: calc(33.33% - 10px);
+    text-align: center;
+    margin: 5px; 
 }
+
 .member p {
 	color: white;
 }
@@ -222,8 +224,10 @@ p {
 	color: rgb(177, 19, 19); 
 }
 
-
-.colorSection {
-	background-color: antiquewhite;
-	padding: 200px;
+.ScheduleSection {
+	background-color: rgb(202, 85, 85);
+	padding: 50px;
+	margin: 0;
 }
+
+/* added margin: 0; to .ScheduleSection and the FoundingMembers
