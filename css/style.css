@@ -185,16 +185,38 @@ p {
 .buttonHighlight:hover {
 	font-weight: 800;
 	border-width: 3px;
+
+
+/*FOUNDING MEMBERS SECTION*/
 }
 .FoundingMembers {
 	background: linear-gradient(0.25turn, #a84269, #E44444);
 	padding: 200px;
 }
 
-h2 {
-	color: #ffffff;
+.FoundingMembers h2 {
+	color: white;
 }
 
+.members {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.members h3 {
+	color: white;
+}
+
+.member {
+	width: 30%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.member p {
+	color: white;
+}
 .FoundingMembersSection .button {
 	background-color:rgb(28, 26, 23);
 	color: rgb(177, 19, 19); 
