@@ -75,7 +75,7 @@
 				<div class="contact-bg-pattern"></div>
 				<div class="contact-form-content">
 					<h2>Sign up</h2>
-					<form action="#" method="post">
+					<form action="emailSend(); reset(); return false;" method="post">
 						<div class="form-group">
 							<input type="text" id="name" name="name" placeholder="Your Name" required>
 						</div>
@@ -90,6 +90,10 @@
 						</div>
 					</form>
 				</div>
+				<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+				<script src="https://smtpjs.com/v3/smtp.js">
+				</script>
+				<script src="index.js"></script>
 			</section>
 			
 			<Footer>
