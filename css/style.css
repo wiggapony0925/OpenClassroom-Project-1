@@ -234,7 +234,7 @@
 	  padding: 50px 0;
 	  margin: 0;
 	  text-align: center;
-	  margin-top: -200px;
+	  margin-top: -185px;
   }
   
   .ScheduleSection .button-container {
@@ -245,7 +245,7 @@
   
   /* Schedule button styles */
   .ScheduleSection .button {
-	  margin: 10px;
+	  margin: 20px;
 	  padding: 28px 40px;
 	  border-radius: 50px;
 	  font-family: 'Archivo';
@@ -254,15 +254,15 @@
 	  line-height: 17px;
 	  text-decoration: none;
 	  background-color: white;
-	  color: transparent; /* Transparent text color */
-	  background-image: linear-gradient(0.25turn, #E44444, #b63d71); /* Text color gradient */
+	  color: transparent; 
+	  background-image: linear-gradient(0.25turn, #E44444, #b63d71); 
 	  background-clip: text; /* Apply background to text */
-	  -webkit-background-clip: text; /* For webkit browsers */
-	  transition: transform 0.3s ease; /* Button hover effect */
+	  -webkit-background-clip: text; 
+	  transition: transform 0.3s ease; 
   }
   
   .ScheduleSection .button:hover {
-	  transform: scale(1.05); /* Scale up on hover */
+	  transform: scale(1.25); /* Scale up on hover */
 	  border: 2px solid linear-gradient(0.25turn, #E44444, #b63d71); /* Border gradient on hover */
   }
   
