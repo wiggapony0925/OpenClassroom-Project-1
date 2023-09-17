@@ -142,7 +142,7 @@
   .button {
 	  margin: 20px 0px;
 	  padding: 28px 40px;
-	  background-color: transparent; /* Transparent background */
+	  background-color: transparent;
 	  border-style: solid;
 	  border-width: 2px;
 	  border-radius: 5px;
@@ -156,7 +156,7 @@
 	  align-items: center;
 	  justify-content: center;
 	  text-decoration: none;
-	  color: var(--dark-grey-color); /* Text color */
+	  color: var(--dark-grey-color);
 	  transition: font-weight 0.3s ease, border-width 0.3s ease;
   }
   
@@ -184,12 +184,11 @@
 	  border-width: 3px;
   }
   
-  /* Adjust the button text color gradient */
   .ScheduleSection .button {
-	  color: transparent; /* Transparent text color */
+	  color: transparent; 
 	  background-image: linear-gradient(0.25turn, #E44444, #b63d71); /* Text color gradient */
-	  background-clip: text; /* Apply background to text */
-	  -webkit-background-clip: text; /* For webkit browsers */
+	  background-clip: text; 
+	  -webkit-background-clip: text; 
   }
   
   .ScheduleSection .button:hover {
@@ -246,26 +245,110 @@
   
   /* Schedule button styles */
   .ScheduleSection .button {
-	  margin: 20px;
-	  padding: 28px 40px;
-	  border-radius: 50px;
-	  font-family: 'Archivo';
-	  font-style: normal;
-	  font-weight: 600;
-	  line-height: 17px;
-	  text-decoration: none;
-	  background-color: white;
-	  color: transparent; 
-	  background-image: linear-gradient(0.25turn, #E44444, #b63d71); 
-	  background-clip: text; 
-	  -webkit-background-clip: text; 
-	  transition: transform 0.3s ease; 
+	margin: 20px;
+	padding: 28px 40px;
+	border-radius: 50px;
+	font-family: 'Archivo';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 17px;
+	text-decoration: none;
+	color: #E44444;
+	background-clip: text; 
+	-webkit-background-clip: text; 
+	border-color: #E44444 #b63d71;
+	background: white;
+	fill: white;
+	transition: transform 0.3s ease;
   }
   
   .ScheduleSection .button:hover {
 	  transform: scale(1.25); 
 	  border: 2px solid linear-gradient(0.25turn, #E44444, #b63d71); 
+	  color: #b63d71;
+
   }
+
+/* Contact Form Styles */
+.contact-form {
+    background-color: #f5f5f5; 
+    position: relative;
+    overflow: hidden;
+	margin-top: -80px;
+}
+
+.contact-bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; 
+    background-image: url('your-pattern-image.jpg');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+}
+
+.contact-form-content {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 35px;
+    line-height: 38px;
+    color: var(--main-color); 
+    margin-bottom: 40px;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333; 
+    background-color: #fff; 
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    background-color: #eee; 
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    padding: 15px 30px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--second-color);
+}
+
   
 /* FOOTER */
 .footer {
