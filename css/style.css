@@ -199,7 +199,7 @@
   /*FOUNDING MEMBERS SECTION*/
   .FoundingMembers {
 	  background: linear-gradient(0.25turn, #E44444, #b63d71);
-	  padding: 100px 0;
+	  padding: 50px;
 	  margin: 0;
   }
   
@@ -234,6 +234,7 @@
 	  padding: 50px 0;
 	  margin: 0;
 	  text-align: center;
+	  margin-top: -200px;
   }
   
   .ScheduleSection .button-container {
@@ -252,6 +253,7 @@
 	  font-weight: 600;
 	  line-height: 17px;
 	  text-decoration: none;
+	  background-color: white;
 	  color: transparent; /* Transparent text color */
 	  background-image: linear-gradient(0.25turn, #E44444, #b63d71); /* Text color gradient */
 	  background-clip: text; /* Apply background to text */
