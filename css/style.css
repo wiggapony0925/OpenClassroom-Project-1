@@ -10,6 +10,7 @@
 	  margin: 0;
 	  display: flex;
 	  justify-content: center;
+	  min-height: 100vh;
   }
   
   .container {
@@ -230,7 +231,7 @@
   
   /*SCHEDULE SECTION */
   .ScheduleSection {
-	  background-color: var(--light-grey-color); /* Change to light grey */
+	  background-color: var(--light-grey-color);
 	  padding: 50px 0;
 	  margin: 0;
 	  text-align: center;
@@ -256,13 +257,98 @@
 	  background-color: white;
 	  color: transparent; 
 	  background-image: linear-gradient(0.25turn, #E44444, #b63d71); 
-	  background-clip: text; /* Apply background to text */
+	  background-clip: text; 
 	  -webkit-background-clip: text; 
 	  transition: transform 0.3s ease; 
   }
   
   .ScheduleSection .button:hover {
-	  transform: scale(1.25); /* Scale up on hover */
-	  border: 2px solid linear-gradient(0.25turn, #E44444, #b63d71); /* Border gradient on hover */
+	  transform: scale(1.25); 
+	  border: 2px solid linear-gradient(0.25turn, #E44444, #b63d71); 
   }
   
+/* FOOTER */
+.footer {
+    margin-top: 200px;
+    background: linear-gradient(0.25turn, var(--main-color), var(--second-color)); 
+    color: white;
+    padding: 50px 0; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+.footer h3{
+	color: white;
+}
+.footer div {
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin: 20px; 
+}
+
+.footer .col-2 {
+    flex-grow: 2;
+}
+
+.footer h3 {
+    font-weight: 600; 
+    margin-bottom: 20px; 
+    letter-spacing: 1px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px; 
+    transition: color 0.3s ease; 
+}
+
+.footer a:hover {
+    color: var(--main-color); 
+}
+
+form input {
+    width: 100%;
+    max-width: 250px; 
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px 0; 
+    outline: none;
+    border: none;
+}
+
+form button {
+    background-color: var(--main-color); 
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px; 
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+form button:hover {
+    background-color: var(--second-color); 
+}
+.social-icons {
+	margin-top: 30px;
+}
+.social-icons i {
+	font-size: 22px;
+	margin: 10px;
+	cursor:pointer
+}
+
+.social-icons i:hover {
+	transform: scale(1.25);
+}
+.rights h3{
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
